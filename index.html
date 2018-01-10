@@ -372,12 +372,11 @@
 
             <div id="sendmessage">Su mensaje ha sido enviado satifactoriamente</div>
             <div id="errormessage"></div>
-            <form id="contact-form" action="https://formspree.io/carrasquel18@gmail.com" method="post" role="form" class="contactForm">
+            <form id="contact-form" method="POST" action="http://formspree.io/carrasquel18@gmail.com" role="form" class="contactForm">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="name">
-                                Nombre</label>
+                    <label for="name">Nombre</label>
                     <input type="text" name="name" class="form-control" id="name" placeholder="Su Nombre" data-rule="minlen:4" data-msg="Por favor ingrese su nombre" />
                     <div class="validation"></div>
                   </div>
@@ -405,8 +404,8 @@
                   </div>
                 </div>
                 <div class="col-md-12">
-                  <button type="submit" class="btn btn-service pull-right" id="btnContactUs">
-                            Enviar Mensaje</button>
+                  <button type="submit" class="btn btn-service pull-right" id="btnContactUs" value="Send">
+                    Enviar Mensaje</button>
                 </div>
               </div>
             </form>
