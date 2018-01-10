@@ -823,9 +823,11 @@ Parallax
         font-size: 25px;
     }
 
+    
+
 
 }
-@media (max-width:768px) {
+@media (max-width:767px) {
 	
 	.team.boxed-grey {
 		margin-bottom: 30px;
@@ -834,6 +836,19 @@ Parallax
 	.boxed-grey {
 		margin-bottom: 30px;
 	}
+    
+    .rd{
+            text-shadow: -2px 4px black
+    }
+
+    .nav-bar-rd{
+        font-size: 15px;
+    }
+    
+    .planes-rd{
+        text-align: center;
+    }
+
 
 	
 }
