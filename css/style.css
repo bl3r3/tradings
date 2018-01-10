@@ -785,10 +785,15 @@ Parallax
     background-color: black;
 }
 
+.fa .fa-angle-double-down .animated{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 /* Media queries */
 
-@media(max-width:767px) {
+@media(max-width:800px) {
 
     .navbar {
         padding: 20px 0;
@@ -827,7 +832,7 @@ Parallax
 
 
 }
-@media (max-width:767px) {
+@media (max-width:800px) {
 	
 	.team.boxed-grey {
 		margin-bottom: 30px;
@@ -853,7 +858,7 @@ Parallax
 	
 }
 
-@media (max-width:480px) {
+@media (max-width:420px) {
 
 	.navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
@@ -876,5 +881,5 @@ Parallax
 		border-radius: 50%;
 		font-size: 20px;
 	}
-	
+	.btn-circle{}
 }
