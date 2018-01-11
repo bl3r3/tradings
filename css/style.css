@@ -913,9 +913,9 @@ Parallax
         border-radius: 50%;
         font-size: 20px;
     }
-    
-}
 
-	
-	.btn-circle{}
+    ..fa-angle-double-down, .fa-angle-double-up{
+        display: none;
+    }
+    
 }
