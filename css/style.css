@@ -914,8 +914,17 @@ Parallax
         font-size: 20px;
     }
 
-    ..fa-angle-double-down, .fa-angle-double-up{
+    .fa-angle-double-down, .fa-angle-double-up{
         display: none;
+    }
+
+    .page-scroll a.btn-circle{
+        display: none;
+    }
+    .intro{
+        max-width: 480px;
+        width: auto;
+        height: 100vh;
     }
     
 }
