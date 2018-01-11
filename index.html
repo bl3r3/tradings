@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -48,7 +48,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#intro">Home</a></li>
+          <li class="active"><a href="#intro" class="hom">Home</a></li>
           <li><a href="#about">Quienes Somos</a></li>
           <li><a href="#service">Planes</a></li>
           <li><a href="#contact">Contacto</a></li>
@@ -374,7 +374,7 @@
             <div id="errormessage"></div>
             <form id="contact-form" method="POST" action="http://formspree.io/carrasquel18@gmail.com" role="form">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-lg-6">
                   <div class="form-group">
                     <label for="name">Nombre</label>
                     <input type="text" name="name" class="form-control" id="name" placeholder="Su Nombre" data-rule="minlen:4" data-msg="Por favor ingrese su nombre" />
@@ -395,7 +395,7 @@
                     <div class="validation"></div>
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-lg-6">
                   <div class="form-group">
                     <label for="name">
                                 Mensaje</label>
@@ -403,7 +403,7 @@
                     <div class="validation"></div>
                   </div>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-lg-12">
                   <button type="submit" class="btn btn-service pull-right" id="btnContactUs" value="Send">
                     Enviar Mensaje</button>
                 </div>

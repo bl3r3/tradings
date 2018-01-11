@@ -315,7 +315,7 @@ hr {
     position:relative;
     background: url(../img/4.jpg) no-repeat top center;
     background-size: cover;
-    height: auto;
+    height: 100%;
 
 }
 
@@ -343,7 +343,7 @@ hr {
 .intro .slogan h2 {
     color: #dbd6d6;
     text-shadow: none;
-    font-size: 60px;
+    font-size: 80px;
     line-height: 60px;
     font-weight: 700;
     font-family: Montserrat, sans-serif;
@@ -359,6 +359,7 @@ hr {
 .intro .slogan h4 {
     color: #fff;
     text-shadow: -1px 1px 1px #000;
+    font-size: 25px;
 }
 
 
@@ -788,9 +789,9 @@ Parallax
 
 /* Media queries */
 
-@media(min-width:767px) {
+@media screen and (max-width:800px) {
 
-    .navbar {
+    /*.navbar {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
@@ -821,10 +822,45 @@ Parallax
 
     .intro-text {
         font-size: 25px;
+    }*/
+
+
+
+    .intro{
+        max-width: 800px;
+        width: auto;
+    }
+
+    .intro .slogan h2{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .intro .slogan h4{
+        font-size: 15px;
+    }
+    .intro .page-scroll{
+        display: none;
+    }
+
+    .service-desc li{
+        list-style: none;
+        text-align: center;
+    }
+
+    .service-box h2{
+        margin-top: 30px;
+    }
+
+    .navbar-brand h1{
+        font-size: 15px;
     }
 
 
+
 }
+
+
 @media (max-width:768px) {
     
     .team.boxed-grey {
@@ -838,7 +874,7 @@ Parallax
     
 }
 
-@media (max-width:480px) {
+@media screen and (max-width:480px) {
 
     .navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
